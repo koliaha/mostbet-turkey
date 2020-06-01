@@ -1,0 +1,131 @@
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number], input.phone-input {
+    -moz-appearance: textfield;
+}
+
+
+.select2-container .select2-selection--single {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: block;
+    height: 28px;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-user-select: none
+}
+.select2-container--default .select2-selection--single {
+    background-color: #fff;
+    border: 0 solid #aaa;
+    border-radius: 30px;
+    height: 60px;
+    outline: none;
+}
+
+.phone-prefix__select + .select2-container,
+.phone-prefix__select + .select2-container .select2-selection,
+.phone-prefix__select + .select2-container .selection{
+    height: 100%;
+    outline: none
+}
+
+.phone-prefix__select + .select2-container {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto
+}
+
+.phone-prefix__select + .select2-container--default .select2-selection--single .select2-selection__arrow {
+    right: 0
+}
+
+.phone-prefix__select + .select2-container--default {
+    height: 30px !important;
+}
+
+.phone-prefix__wrap{
+    display: flex;
+    align-items: center;
+    height: 60px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.24);
+    border-radius: 30px;
+    background: #fff;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+.phone-prefix__code{
+    display: inline-block;
+    color: #000;
+    margin-right: 10px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 31px;
+    text-align: left;
+}
+.phone-prefix__code-select{
+    display: flex;
+    align-items: center;
+}
+.phone-prefix__flag {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30px;
+}
+
+.list-select{
+    background-color: #ffffff;
+    border: 1px solid #000;
+    font-size: 20px;
+}
+
+.list-select + .select2{
+    margin-bottom: 8px;
+}
+
+.list-select + .select2 .select2-selection--single{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.list-select + .select2 .select2-selection__rendered{
+    padding-left: 30px;
+    font-size: 20px;
+}
+
+.list-select + .select2 .select2-selection__arrow{
+    height: 100%;
+    padding-right: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
