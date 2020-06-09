@@ -51,7 +51,7 @@
 		top: 480px;
 	}
 	.content__info-img--five{
-		top: 500px;
+		top: 490px;
 	}
 	.content__info-text{
 		top: 530px;
@@ -139,7 +139,7 @@
 	}
 
 	.content__info-img--five {
-		top: 721px;
+		top: 710px;
 	}
 
 	.content__info-text {
@@ -270,7 +270,7 @@
 	}
 
 	.content__info-img--five {
-		top: 640px;
+		top: 635px;
 	}
 
 	.content__info-text {
@@ -625,7 +625,7 @@
 	}
 
 	.content__info-img--five {
-		top: 650px;
+		top: 640px;
 	}
 
 	.content__info-text {
@@ -1493,8 +1493,9 @@
 	}
 
 	.content__info-img--five {
-		top: 399px;
-		width: 130%;
+		top: 385px;
+		width: 100%;
+		left: 30px;
 	}
 
 	.content__info-text-img {
